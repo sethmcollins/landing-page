@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#181c20;
+    
+  }
+
+  .body {
+      max-width: 1440px;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .header {
+    background-color: #1F2937;
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+
+  .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display:flex;
+    font-weight: bold;
+  }
+
+  .links {
+    font-size: 18px;
+    color:#E5E7EB;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+    display:flex;
+    margin-left: auto;
+  }
+
+  .hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 20px;
+    padding: 100px 200px;
+    padding-bottom: 140px;
+  }
+
+  .herocard {
+      color: #F9FAF8;
+      display: flex;
+      flex-direction: column;
+      width: 460px;
+  }
+
+  .herotitle {
+    font-size: 48px;
+    font-weight: 800;
+  }
+
+  .herotext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px 0px;
+  }
+
+  .herobutton {
+    background-color: #3882F6;
+    color:white;
+    display: flex;
+    padding: 10px 34px;
+    font-weight: bold;
+    width: fit-content;
+    border-radius: 8px;
+    margin: 8px 0px;
+  }
+
+  .heroimage {
+    display: flex;
+    width: 530px;
+    height: 240px;
+    background-color: #6a6f79;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px 200px;
+    justify-content: center;
+    color: #1F2937;
+    padding-bottom: 60px;
+  }
+
+  .imagetitle {
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  .imagewrap {
+    display: flex;
+    flex-direction: column;
+    gap: 6px 0px;
+    padding: 30px 70px;
+    height: 280px;
+    width: 900px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .image {
+    display: flex;
+    height: 160px;
+    width: 160px;
+    border-radius: 12px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: 4px;
+
+  }
+
+  .imagetext {
+    display: flex;
+    width: 150px;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 110px 330px;
+  }
+
+  .quotecard {
+    display: flex;
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  .quotesign {
+    display:flex;
+    justify-content: right;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 5px 20px;
+  }
+
+  .last {
+      display: flex;
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+  }
+  .signup {
+    margin: 100px 200px;
+    background-color: #3882F6;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 120px;
+    width: 784px;
+    height: 70px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+  }
+
+  .signuptitle {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .signuptext {
+    color: #E5E7EB;
+  }
+
+  .signupbutton {
+    display:flex;
+    width: fit-content;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    padding: 8px 32px;
+    margin-left: auto;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+
+  .footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color:#E5E7EB;
+    padding: 40px;
+  }
+
+  a {
+      text-decoration: none;
+      color:#E5E7EB;
+  }

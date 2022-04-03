@@ -1,1 +1,1 @@
-# landing-page
+This repo is an Odin Projet assignment ment to test mmy abilities to create a landing page from scratch uing HTML, CSS, and flex boxes.
